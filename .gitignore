@@ -1,0 +1,17 @@
+# Large Data Folders
+data/
+HAM10000_images_part_1/
+HAM10000_images_part_2/
+
+# Model Files (These can be 100MB+ each)
+models/*.keras
+models/*.h5
+
+# Python/Jupyter overhead
+__pycache__/
+.ipynb_checkpoints/
+.virtual_documents/
+tf_env/
+
+# OS specific
+.DS_Store
